@@ -71,7 +71,7 @@ setelah keluar QR code pada termux, lalu kalian scan menggunakan nomor WhatsApp 
 ### Tes bot
 Jika ragu, sebelum menginstal Naomi coba dulu botnya disini
 <p>
-<a href="wa.me/6285774407693?text=.menu" target="blank"><img src="https://img.shields.io/badge/WhatsApp Bot Lexa v3-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://wa.me/6285774407693?text=.menu" target="blank"><img src="https://img.shields.io/badge/WhatsApp Bot Lexa v3-30302f?style=flat&logo=whatsapp" /></a>
 </p>
 
 ### Let's connect with me
