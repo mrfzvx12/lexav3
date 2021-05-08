@@ -93,7 +93,7 @@ Informasi lebih lengkap bisa hubungi saya melalui sosial media di bawah :
 <details close="close">
   <summary>ABOUT NAOMI</summary>
   
-| ABOUT NAOMI |Yes/No|
+| ABOUT LEXA |Yes/No|
 | ------------- | ------------- |
   </details>
   
