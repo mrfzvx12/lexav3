@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/mrfzvx12"><img title="Author" src="https://img.shields.io/badge/Lexa x Naomi-V5-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/mrfzvx12"><img title="Author" src="https://img.shields.io/badge/Lexa x Naomi-V3-orange?style=for-the-badge&logo=github"></a>
 </p>
 
 
