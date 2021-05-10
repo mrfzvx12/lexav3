@@ -981,7 +981,7 @@ case 'vnlist':
 				_img.push(`${img}`)
 				fs.writeFileSync(`./media/foto/${img}.jpeg`, delb)
 				fs.writeFileSync('./media/image.json', JSON.stringify(_img))
-				Lxa.sendMessage(from, `Sukses Menambahkan Foto\nCek dengan cara ${prefix}listimage`, MessageType.text, { quoted: mek })
+				Lxa.sendMessage(from, `Sukses Menambahkan Foto\nCek dengan cara ${prefix}listimg`, MessageType.text, { quoted: mek })
 				 
 				break
 
