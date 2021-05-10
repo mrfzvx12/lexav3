@@ -76,7 +76,6 @@ const { wait, stick, err, group, ban, ownerB, premi, userB, admin, Badmin } = re
 
 //-- Setting
 prefix = up.prefix
-listprefix = ['.','!','#','/','z','+']
 const memberlimit = up.memberlimit;
 const banned = [
   ];
