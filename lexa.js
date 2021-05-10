@@ -185,6 +185,7 @@ const budy = (type === 'conversation') ? mek.message.conversation : (type === 'e
 const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 const args = body.trim().split(/ +/).slice(1)
+const value = args.join(' ')
 const isCmd = body.startsWith(prefix)
 const totalchat = await Lxa.chats.all()
 const botNumber = Lxa.user.jid
@@ -205,7 +206,6 @@ const botNumber = Lxa.user.jid
   const isGroupAdmins = groupAdmins.includes(sender) || false
   const isWelcom = isGroup ? _welcom.includes(from) : false
   const isAnti = isGroup ? _antilink.includes(from) : false
-  const value = args.join(' ')
   const pushname = Lxa.contacts[sender] != undefined ? Lxa.contacts[sender].vname || Lxa.contacts[sender].notify: undefined
 
 //-- other
