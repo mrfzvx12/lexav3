@@ -3,10 +3,10 @@
 </p>
 
 <a href="https://github.com/mrfzvx12/followers"><img title="Followers" src="https://img.shields.io/github/followers/mrfzvx12?label=Followers&style=social"></a>
-<a href="https://github.com/mrfzvx12/im-lexa-v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfzvx12/lexav3?&style=social"></a>
-<a href="https://github.com/mrfzvx12/im-lexa-v2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/mrfzvx12/lexav3?style=social"></a>
-<a href="https://github.com/mrfzvx12/im-lexa-v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mrfzvx12/lexav3?label=Watching&style=social"></a>
-<a href="https://github.com/mrfzvx12/im-lexa-v2/watchers"><img title="Contributor" src="https://img.shields.io/github/contributors/mrfzvx12/lexav3?logo=github&style=social"></a>
+<a href="https://github.com/mrfzvx12/lexav3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfzvx12/lexav3?&style=social"></a>
+<a href="https://github.com/mrfzvx12/lexav3/network/members"><img title="Fork" src="https://img.shields.io/github/forks/mrfzvx12/lexav3?style=social"></a>
+<a href="https://github.com/mrfzvx12/lexav3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mrfzvx12/lexav3?label=Watching&style=social"></a>
+<a href="https://github.com/mrfzvx12/lexav3/watchers"><img title="Contributor" src="https://img.shields.io/github/contributors/mrfzvx12/lexav3?logo=github&style=social"></a>
 </p>
 
 <p align="center">
