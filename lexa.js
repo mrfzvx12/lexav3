@@ -83,7 +83,6 @@ const premium = [
   ];
 const ownerNumber = [
   "6282223014661@s.whatsapp.net",
-  "6283827418746@s.whatsapp.net"
   ];
 
 //-- Apikey
