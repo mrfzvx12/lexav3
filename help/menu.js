@@ -36,7 +36,6 @@ const menu = (tanggal, jam, pushname, sender, prem_, Lxa, prefix, user, uptime, 
 ┌───⊷ *LIST* ⊶
 ├╼ *${prefix}menu 1*
 ├╼ *${prefix}menu 2*
-├╼ *${prefix}menu 3*
 ├╼ *${prefix}menu group*
 ├╼ *${prefix}menu premium*
 ├╼ *${prefix}menu owner*
