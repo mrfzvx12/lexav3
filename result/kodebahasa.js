@@ -1,4 +1,4 @@
-const bahasa = (prefix, sender) => {
+const bahasa = () => {
 	return `*List kode Bahasa*
 
 	*Code       Bahasa*

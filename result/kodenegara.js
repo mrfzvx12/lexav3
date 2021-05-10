@@ -1,4 +1,4 @@
-const negara = (prefix, sender) => {
+const negara = () => {
 	return `*A*
 
 Afganistan 93
