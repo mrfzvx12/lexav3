@@ -362,6 +362,9 @@ console.error(err)
 //-- Anti user ban
 if (isCmd && isBan) return reply(banned())
 
+//-- Auto read jika ada pesan
+if (isCmd) Lxa.chatRead(from)
+
 //--Auto respon
 switch(is) {
 case 'assalamualaikum':
