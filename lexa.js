@@ -338,7 +338,7 @@ console.error(err)
 }
 
 // ---- Antilink 
-		if (budy.includes("chat.whatsapp")){
+		if (budy.includes("https://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAnti) return
     if (!isBotGroupAdmins) return reply('Untung Lexa bukan admin, kalo iya gua kick lu')
