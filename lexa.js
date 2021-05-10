@@ -745,6 +745,11 @@ case 'pantun':
             })
               break
 
+//-- link whatsapp
+case 'wame':
+  if (!isVerify) return reply(userB())
+					reply(`wa.me/${sender.split('@')[0]}\nAtau\napi.whatsapp.com/send?phone=${sender.split('@')[0]}`)
+			break
 
 //-- salin teks dalam gambar
 case 'ocr':
