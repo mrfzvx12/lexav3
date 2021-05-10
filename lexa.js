@@ -338,12 +338,13 @@ console.error(err)
 }
 
 // ---- Antilink 
-		if (budy.includes("https://chat.whatsapp.com/")){
+const linkwa = 'https://chat.whatsapp.com/'
+		if (budy.includes(`${linkwa}`)){
 		if (!isGroup) return
 		if (!isAnti) return
     if (!isBotGroupAdmins) return reply('Untung Lexa bukan admin, kalo iya gua kick lu')
     linkgc = await Lxa.groupInviteCode (from)
-    if (budy.includes(`https://chat.whatsapp.com/${linkgc}`)) return reply('Untung Link group ini')
+    if (budy.includes(`${linkwa}${linkgc}`)) return reply('Untung Link group ini')
 		if (isGroupAdmins) return reply(`Hmm mantap min`)
 		Lxa.updatePresence(from, Presence.composing)
 		var Kick = `${sender.split("@")[0]}@s.whatsapp.net`
