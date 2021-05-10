@@ -976,8 +976,8 @@ case 'vnlist':
 				if (!isOwner) return reply(ownerB())
 				img = value
 				if (!img) return reply('Nama imagenya apa')
-				boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-				delb =  Lxa.downloadMediaMessage(boij)
+				fto = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
+				delb =  Lxa.downloadMediaMessage(fto)
 				_img.push(`${img}`)
 				fs.writeFileSync(`./media/foto/${img}.jpeg`, delb)
 				fs.writeFileSync('./media/image.json', JSON.stringify(_img))
