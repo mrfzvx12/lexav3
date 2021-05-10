@@ -20,17 +20,8 @@
 
 </p>
 
-**Pull Request tersedia untuk publik**
-
-<details close="close">
-  <summary>INFORMATION</summary>
-  
-* Klik stars untuk support agar terus update
-* Klik watch untuk mendapatkan notifikasi ketika ada update
-* Semua fitur work bergantung pada rest api
-* Versi ini hanyalah cloningan dari versi asli, jika mengalami bug/eror/api tidak aktif silahkan sempurnakan sendiri
-
-</details>
+**1 Pull Request tersedia untuk publik**
+**2 Fitur lainnya ?, Tambahin sendiri dulu**
 
 <details close="close">
   <summary>TOOLS & INSTALLATION</summary>
