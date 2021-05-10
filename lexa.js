@@ -754,7 +754,7 @@ case 'wame':
 //-- Pengucapan ulang
 case 'say':
   if (!isVerify) return reply(userB())
-reply(value)
+sendMess(from, value)
 break
 
 //-- salin teks dalam gambar
