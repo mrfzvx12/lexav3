@@ -979,8 +979,8 @@ case 'vnlist':
 				boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 				delb =  Lxa.downloadMediaMessage(boij)
 				_img.push(`${img}`)
-				fs.writeFileSync(`./media/foto/${img}.jpeg`, delb)
-				fs.writeFileSync('./media/foto.json', JSON.stringify(_img))
+				fs.writeFileSync(`./media/image/${img}.jpeg`, delb)
+				fs.writeFileSync('./media/image.json', JSON.stringify(_img))
 				Lxa.sendMessage(from, `Sukses Menambahkan Foto\nCek dengan cara ${prefix}listimage`, MessageType.text, { quoted: mek })
 				 
 				break
