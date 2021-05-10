@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node lexa.js"
   },
   "keywords": [
     "termux",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrfzvx12/lexav3.git"
+    "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
   },
   "bugs": {
-    "url": "https://github.com/mrfzvx12/lexav3/issues"
+    "url": "https://github.com/mhankbarbar/termux-wabot/issues"
   },
-  "homepage": "https://github.com/mrfzvx12/lexav3#readme"
+  "homepage": "https://github.com/mhankbarbar/termux-wabot#readme"
 }
