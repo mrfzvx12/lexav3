@@ -980,8 +980,8 @@ case 'vnlist':
 				delb =  Lxa.downloadMediaMessage(boij)
 				_img.push(`${img}`)
 				fs.writeFileSync(`./media/foto/${img}.jpeg`, delb)
-				fs.writeFileSync('./media/image.json', JSON.stringify(_img))
-				Lxa.sendMessage(from, `Sukses Menambahkan Video\nCek dengan cara ${prefix}listimage`, MessageType.text, { quoted: mek })
+				fs.writeFileSync('./media/foto.json', JSON.stringify(_img))
+				Lxa.sendMessage(from, `Sukses Menambahkan Foto\nCek dengan cara ${prefix}listimage`, MessageType.text, { quoted: mek })
 				 
 				break
 
