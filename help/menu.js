@@ -152,6 +152,7 @@ const menu2 = (prefix, tanggal, jam) => {
 ├╼ *${prefix}Toimg (Reply Sticker)*
 └──────────────
 ┌───⊷ *TOOLS* ⊶
+├╼ *${prefix}Wame*
 ├╼ *${prefix}Ocr (Foto)*
 ├╼ *${prefix}Tomp3 (Video)*
 ├╼ *${prefix}Tovn (Audio)*
