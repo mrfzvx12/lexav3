@@ -121,7 +121,7 @@ const close = (id, text) => {
 }
 
 const banner = cfonts.render(('LEXA'), {
-    font: 'tiny',
+    font: 'block',
     color: 'candy',
     align: 'center',
     colors: ['cyan'],
