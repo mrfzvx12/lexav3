@@ -75,7 +75,7 @@ const { termux } = require('./help/termux');
 const { wait, stick, err, group, ban, ownerB, premi, userB, admin, Badmin } = require('./help/respon');
 
 //-- Setting
-prefix = up.prefix
+const prefix = up.prefix
 const memberlimit = up.memberlimit;
 const banned = [
   ];
