@@ -780,7 +780,7 @@ case 'ocr':
 
 //-- Merubah video jadi audio
 case 'tomp3':
-					if (!isQuotedVideo && !isMedia) return reply('Silahkan reply video yang sudah dikirim')
+					if (!isQuotedVideo && isMedia) return reply('Silahkan reply video yang sudah dikirim')
 					reply(wait())
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await Lxa.downloadAndSaveMediaMessage(encmedia)
@@ -972,7 +972,7 @@ case 'vnlist':
 
 //-- menambah foto
 			case 'addimg':
-				if (!isQuotedImage && !isMedia) return reply('Reply imagenya')
+				if (!isQuotedImage && isMedia) return reply('Reply imagenya')
 				if (!isOwner) return reply(ownerB())
 				img = value
 				if (!img) return reply('Nama imagenya apa')
@@ -1011,7 +1011,7 @@ case 'vnlist':
 //--- menambah video
 			case 'addvid':
 			  if (!isOwner) return reply(ownerB())
-				if (!isQuotedVideo && !isMedia) return reply('Reply videonya')
+				if (!isQuotedVideo && isMedia) return reply('Reply videonya')
 				vid = value
 				if (!vid) return reply('Nama videonya')
 				boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
@@ -1442,7 +1442,7 @@ case 'setppgc':
 				if (!isGroup) return reply(group())
 				if (!isGroupAdmins && !isOwner) return reply(admin())
 				if (!isBotGroupAdmins) return reply(Badmin())
-				if (!isQuotedImage && !isMedia) return reply('Reply foto yang ingin di jadikan profil grup')
+				if (!isQuotedImage && isMedia) return reply('Reply foto yang ingin di jadikan profil grup')
 				try {
 				media = await Lxa.downloadAndSaveMediaMessage(mek)
 				await Lxa.updateProfilePicture (from, media)
