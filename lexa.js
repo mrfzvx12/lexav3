@@ -977,7 +977,7 @@ case 'vnlist':
 				img = value
 				if (!img) return reply('Nama imagenya apa')
 				fto = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-				delb =  Lxa.downloadMediaMessage(fto)
+				delb = await Lxa.downloadMediaMessage(fto)
 				_img.push(`${img}`)
 				fs.writeFileSync(`./media/foto/${img}.jpeg`, delb)
 				fs.writeFileSync('./media/image.json', JSON.stringify(_img))
