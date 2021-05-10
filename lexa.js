@@ -751,6 +751,12 @@ case 'wame':
 					reply(`wa.me/${sender.split('@')[0]}\nAtau\napi.whatsapp.com/send?phone=${sender.split('@')[0]}`)
 			break
 
+//-- Pengucapan ulang
+case 'say':
+  if (!isVerify) return reply(userB())
+reply(value)
+break
+
 //-- salin teks dalam gambar
 case 'ocr':
   if (!isVerify) return reply(userB())
