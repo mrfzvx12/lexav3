@@ -128,6 +128,7 @@ const menu1 = (prefix, tanggal, jam) => {
 ├╼ *${prefix}Sadgirl*
 ├╼ *${prefix}Wibu*
 ├╼ *${prefix}Kutuk (Tag target)*
+├╼ *${prefix}Say (Teks)*
 └──────────────
 ┌───⊷ *GAME* ⊶
 ├╼ *${prefix}Truth*
