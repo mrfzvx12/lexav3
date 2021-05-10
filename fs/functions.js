@@ -107,9 +107,6 @@ spins = getGlobalSpinner(false)
 
 const start = (id, text) => {
 	spins.add(id, {text: text})
-		/*setTimeout(() => {
-			spins.succeed('load-spin', {text: 'Suksess'})
-		}, Number(wait) * 1000)*/
 	}
 const info = (id, text) => {
 	spins.update(id, {text: text})
