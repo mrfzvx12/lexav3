@@ -990,7 +990,7 @@ case 'vnlist':
 			  if (args.length < 1) return reply(`Masukan juga nama image pada ${prefix}listimg`)
 				img = value
 				try {
-				buffer = fs.readFileSync(`./media//${img}.jpeg`)
+				buffer = fs.readFileSync(`./media/foto/${img}.jpeg`)
 				Lxa.sendMessage(from, buffer, image, { quoted: mek })
 				} catch {
 				  reply('Pack tidak terdaftar')
