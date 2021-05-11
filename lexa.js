@@ -392,7 +392,7 @@ case 'help':
     return reply(menuPrem(prefix, tanggal, jam))
  */} else if (args[0] === 'owner' ) {
     return replyimg(menuOwner(prefix, tanggal, jam), text, capt, thum)
-  } else if (args[0] === 'grup' ) {
+  } else if (args[0] === 'group' ) {
     return replyimg(menuGrup(prefix, tanggal, jam), text, capt, thum)
   }
           break
