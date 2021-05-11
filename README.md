@@ -48,8 +48,8 @@ Untuk penginstalan nya cukup simple, ikuti langkah-langkah berikut pada Aplikasi
 
 ```bash
 > pkg install git
-> git clone https://github.com/mrfzvx12/Naomi
-> cd Naomi
+> git clone https://github.com/mrfzvx12/lexav3
+> cd lexav3
 > bash install.sh
 > npm start
 ```
