@@ -111,7 +111,7 @@ const menu1 = (prefix, tanggal, jam) => {
   return `▢ ${tanggal()}
 ▢ Jam ${jam} (Asia/Jakarta)
 
-  ≡ *MENU GROUP*
+  ≡ *MENU*
 ┌───⊷ *FUN* ⊶
 ├╼ *${prefix}Ilham*
 ├╼ *${prefix}Dilan*
