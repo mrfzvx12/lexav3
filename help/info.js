@@ -32,7 +32,7 @@ return `  ≡ *INFORMASI*
 └──────────────
 
 ▢ Github :
-https://github.com/mrfzvx12/Naomi
+https://github.com/mrfzvx12/lexav3
 ▢ BASE :
 https://github.com/MhankBarBar/termux-wabot
 ▢ DEV :
