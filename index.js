@@ -4,11 +4,11 @@ let path = require('path')
 let fs = require('fs')
 let package = JSON.parse(fs.readFileSync('./package.json'))
 const CFonts  = require('cfonts')
-/*consts.say('Lexa\nWhatsApp Bot', {
+consts.say('LEXA', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']
-})*/
+})
 CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   font: 'console',
   align: 'center',
@@ -21,11 +21,11 @@ CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
  */
 function start(file) {
   let args = [path.join(__dirname, file), ...process.argv.slice(2)]
-/*  CFonts.say([process.argv[0], ...args].join(' '), {
+  CFonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']
-  })*/
+  })
   let p = spawn(process.argv[0], args, {
     stdio: ['inherit', 'inherit', 'inherit', 'ipc']
   })
