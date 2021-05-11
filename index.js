@@ -4,7 +4,7 @@ let path = require('path')
 let fs = require('fs')
 let package = JSON.parse(fs.readFileSync('./package.json'))
 const CFonts  = require('cfonts')
-cFonts.say('LEXA', {
+CFonts.say('LEXA', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']
