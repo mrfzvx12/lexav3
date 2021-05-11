@@ -120,13 +120,4 @@ const close = (id, text) => {
 	spins.fail(id, {text: text})
 }
 
-const banner = cfonts.render(('LEXA'), {
-    font: 'block',
-    color: 'candy',
-    align: 'center',
-    colors: ['cyan'],
-    lineHeight: 3
-  });
-
-
-module.exports = { _wait, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, banner, close }
+module.exports = { _wait, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, close }
